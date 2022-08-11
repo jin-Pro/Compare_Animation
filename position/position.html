@@ -6,23 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Compare Transition</title>
     <link rel="stylesheet" type="text/css" href="./position.css" />
-    <style>
-      .box {
-        display: flex;
-      }
-    </style>
   </head>
   <body>
-    <div class="box">
-      <div>
-        <h1>Animate with Top/Left</h1>
-        <div id="container">
-          <div id="reflow"></div>
-        </div>
-        <div id="circleState">position : absolute</div>
-        <button id="toggleButton">toggle</button>
-      </div>
+    <h1>Animate with Top/Left</h1>
+    <div id="container">
+      <div id="reflow"></div>
     </div>
+    <div id="circleState">position : absolute</div>
+    <button id="toggleButton">toggle</button>
   </body>
   <script>
     const button = document.querySelector("#toggleButton");
